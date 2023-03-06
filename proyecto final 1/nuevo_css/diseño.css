@@ -1,0 +1,123 @@
+
+body {
+  background-image: url(file:///C:/Users/Martin/Desktop/ArgentinaPrograma%204.0/proyecto%20final%201/imagenes/listo.jpg);
+  background-size:cover ;
+}
+header {
+    max-height: 100% ;
+    background-image: url(file:///C:/Users/Martin/Desktop/ArgentinaPrograma%204.0/proyecto%20final%201/imagenes/trabajando.jpg);
+    background-position:center;
+    background-size:cover ;
+    ;
+ }
+ /*table {
+  width:auto;
+ }*/
+ h1, li {
+  color: rgb(214, 239, 250);
+ }
+td {
+  color: white;
+  border-radius: 5px;
+ border: 1px solid black;
+    background-color: rgb(184, 184, 184);
+  }
+  button {
+    background-color: rgb(212, 212, 212);
+  }
+
+.menu-container {
+  display:flex ;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu {
+  position:relative;
+}
+
+.menu-button {
+  background-color: #646464;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 10px ;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.menu-items {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 10px;
+  padding: 0;
+  background-color: #473636;
+  color: aliceblue;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.menu-items dt {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.menu-items dt:hover {
+  background-color: rgb(179, 155, 155);
+}
+
+.menu-items.show {
+  display: block;
+}
+dl.expansible dd {
+  display: none;
+}
+
+dl.expansible dt {
+  cursor: pointer;
+}
+
+dl.expansible dt:hover + dd {
+  display: block;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 97%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+a i:before {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+a i.fab.fa-instagram:before {
+  content: "\f16d";
+  font-family: "Font Awesome 5 Brands";
+}
+
+a i.fab.fa-facebook:before {
+  content: "\f09a";
+  font-family: "Font Awesome 5 Brands";
+}
+
+a i.fab.fa-whatsapp:before {
+  content: "\f232";
+  font-family: "Font Awesome 5 Brands";
+}
+
+a i.fab.fa-linkedin:before {
+  content: "\f08c";
+  font-family: "Font Awesome 5 Brands";
+}
+h4 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: beige;
+}
+dt, dd{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
